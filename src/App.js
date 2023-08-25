@@ -97,7 +97,7 @@ const App = () => {
       }
 
       monthlyRewards[customerId][transactionMonth] += calculateRewards(
-        transactionAmount
+      transactionAmount
       );
     });
 
